@@ -1,0 +1,127 @@
+## JavaScript Assignment: To-Do List Application
+
+### Objective:
+Create a simple to-do list application using HTML, CSS, and JavaScript. The application will allow users to add, delete, and mark tasks as completed.
+
+### Requirements:
+1. **HTML Structure**:
+    - Create a basic HTML page with a title "To-Do List Application".
+    - Add an input field for entering new tasks.
+    - Add a button to add the task to the list.
+    - Add a section to display the list of tasks.
+
+2. **CSS Styling**:
+    - Style the application to make it visually appealing. This includes the input field, buttons, and the task list.
+    - Add different styles for completed and pending tasks.
+
+3. **JavaScript Functionality**:
+    - Write JavaScript functions to handle the following:
+        1. **Add Task**: Adds the task entered in the input field to the task list.
+        2. **Delete Task**: Removes a task from the list when a delete button next to the task is clicked.
+        3. **Mark as Completed**: Strikes through the task text when it is clicked to mark it as completed.
+        4. **Save to Local Storage**: Save the tasks to local storage so that they persist even after the page is refreshed.
+
+### Detailed Steps:
+
+1. **HTML**:
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-Do List Application</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>To-Do List Application</h1>
+        <input type="text" id="taskInput" placeholder="Enter a new task">
+        <button id="addTaskBtn">Add Task</button>
+        <ul id="taskList"></ul>
+        <script src="script.js"></script>
+    </body>
+    </html>
+    ```
+
+2. **CSS**:
+    ```css
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 50px;
+    }
+
+    #taskInput {
+        padding: 10px;
+        width: 300px;
+    }
+
+    #addTaskBtn {
+        padding: 10px 15px;
+        margin-left: 10px;
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    #addTaskBtn:hover {
+        background-color: #4cae4c;
+    }
+
+    #taskList {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .task {
+        background-color: #fff;
+        margin: 5px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .task.completed {
+        text-decoration: line-through;
+        color: grey;
+    }
+
+    .deleteBtn {
+        background-color: #d9534f;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 5px 10px;
+    }
+
+    .deleteBtn:hover {
+        background-color: #c9302c;
+    }
+    ```
+
+3. **JavaScript**:
+    ```javascript
+    // Complete This
+    ```
+
+### Instructions:
+1. Create an HTML file (`index.html`) and copy the HTML structure into it.
+2. Create a CSS file (`styles.css`) and copy the CSS styling into it.
+3. Create a JavaScript file (`script.js`) and complete the JavaScript code in it.
+4. Open the `index.html` file in a web browser to see your to-do list application in action.
+5. Make sure to test all functionalities: adding tasks, deleting tasks, marking tasks as completed, and ensuring tasks persist after refreshing the page.
+
+### Bonus:
+- Add a feature to edit existing tasks.
+- Implement drag-and-drop functionality to reorder tasks.
+
+### Submission:
+Submit a zip file containing the `index.html`, `styles.css`, and `script.js` files.
+
+---
+
+Feel free to customize the assignment further based on the skill level of the students or specific topics you'd like to emphasize.
